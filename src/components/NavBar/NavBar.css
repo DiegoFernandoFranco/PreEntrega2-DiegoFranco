@@ -1,0 +1,42 @@
+.menu-container{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(29, 28, 28);
+    z-index: 1000;       
+}
+
+.menu-container img {
+    height: 60px;
+}
+.menu-container ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+
+.menu-container ul li a {
+    color: white;
+    text-decoration: none;    
+    margin: 0 10px 10px 0;
+}
+
+.logo-nav {
+    animation: logo-spin infinite 5s linear;
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
