@@ -11,7 +11,7 @@ const cosa = [
         price: 500,
         category: "Zapatillas",
         stock: 5,
-        pictureUrl: '/images/ojotas-verdes.png',
+        pictureUrl: '/images/zapatillas.png',
     },
     {
         id: 2,
@@ -20,7 +20,7 @@ const cosa = [
         price: 1000,
         category: "Zapatillas",
         stock: 5,
-        pictureUrl: '/images/ojotas-verdes.png',
+        pictureUrl: '/images/zapatillas.png',
     },
     {
         id: 3,
@@ -29,7 +29,7 @@ const cosa = [
         price: 1500,
         category: "Ojotas",
         stock: 5,
-        pictureUrl: '/images/ojotas-rojo-ferrari.png',
+        pictureUrl: '/images/ojotas.png',
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ const cosa = [
         price: 2000,
         category: "Ojotas",
         stock: 5,
-        pictureUrl: '/images/ojotas-rojo-ferrari.png',
+        pictureUrl: '/images/ojotas.png',
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ const cosa = [
         price: 2500,
         category: "Zapatos",
         stock: 5,
-        pictureUrl: '/images/ojotas-celestes.png',
+        pictureUrl: '/images/zapatos.png',
     },
     {
         id: 6,
@@ -56,8 +56,8 @@ const cosa = [
         price: 2150,
         category: "Zapatos",
         stock: 5,
-        pictureUrl: '/images/ojotas-celestes.png',
-    },
+        pictureUrl: '/images/zapatos.png',
+    }
 ];
 
 const ItemDetailContainer = () => {
